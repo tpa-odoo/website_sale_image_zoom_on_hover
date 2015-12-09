@@ -15,7 +15,7 @@
 
         <template id="product" inherit_id="website_sale.product" name="Image of Product">
             <xpath expr="//span[@t-field='product.image']" position="replace">
-                <span itemprop="image" t-field="product.image" t-field-options='{"widget": "image", "class": "zoom image_zoom product_detail_img", "alt-field": "name"}'/>
+                <span itemprop="image" class="zoom image_zoom" t-field="product.image" t-field-options='{"widget": "image", "class": "zoom image_zoom product_detail_img", "alt-field": "name"}'/>
             </xpath>
         </template>
 
